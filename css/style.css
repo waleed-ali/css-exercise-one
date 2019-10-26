@@ -1,7 +1,9 @@
-body
+/*body font size*/
+body{ /*1*/
   font-size: 14px;
 }
 
+/*background color, margins, height, width and position*/
 nav {
   background color: yellow;
   height: 100px;
@@ -14,23 +16,25 @@ section {
   margin: 0 auto;
   width: 60%;
 }
-
+/*header one settings*/
 h1 {
   font-family sans-serif;
   font-size: 2em;
 }
 
+/*header three settings*/
+
 .example, h3 {
   padding-top: 30px;
   text-align center
-}
-
-h3 {
+  /*consolidated under one "h3" tag*/
   font-size: 1.3em;
+  /*altering h3 color to blue as per 4)*/
+  background-color: blue;
 }
 
 .element {
   background-color: green;
   height: 100px;
   margin 10px 0;
-  width: 100%;
+  width: 100%;} /*2*/
