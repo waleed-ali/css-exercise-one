@@ -10,7 +10,7 @@ nav {
   margin-top: -10px;
   position: fixed;
   width: 100%;
-
+}
 
 section {
   margin: 0 auto;
@@ -18,7 +18,7 @@ section {
 }
 /*header one settings*/
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
 
@@ -26,15 +26,17 @@ h1 {
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
   /*consolidated under one "h3" tag*/
   font-size: 1.3em;
-  /*altering h3 color to blue as per 4)*/
-  background-color: blue;
 }
 
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;} /*2*/
+
+.yellow {
+  background-color: yellow; 
+}
