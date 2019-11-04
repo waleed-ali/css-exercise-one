@@ -5,7 +5,7 @@ body{ /*1*/
 
 /*background color, margins, height, width and position*/
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
@@ -27,16 +27,20 @@ h1 {
 .example, h3 {
   padding-top: 30px;
   text-align: center;
-  /*consolidated under one "h3" tag*/
+}
+
+h3 {
   font-size: 1.3em;
 }
 
 .element {
   background-color: green;
   height: 100px;
-  margin: 10px 0;
-  width: 100%;} /*2*/
+  margin: 10px;
+  width: 100%;
+  } /*2*/
 
 .yellow {
-  background-color: yellow; 
+  background-color: yellow;
+  margin-top: 10px;
 }
